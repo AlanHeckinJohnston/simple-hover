@@ -1,0 +1,24 @@
+{
+    "name": "chaslain/simplehover",
+    "version":"1.0",
+    "type": "yii2-extension",
+    
+    "description": "A simple Hover widget.",
+    "keywords": ["yii2", "UI", "hover"],
+    "authors": [
+        {
+            "name": "Alan Johnston",
+            "email": "alanjohnston800@gmail.com"
+        }
+    ],
+    
+    "autoload": {
+        "psr-4": {
+            "chaslain\\simplehover\\": "src/"
+        }
+    },
+    
+    "require": {
+        "yiisoft/yii2": "*"
+    }
+}
